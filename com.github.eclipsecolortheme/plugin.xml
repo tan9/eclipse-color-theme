@@ -305,6 +305,12 @@
          pluginId="com.palantir.typescript"
          xml="mappings/com.palantir.typescript.xml">
    </mapper>
+    <mapper
+          class="com.github.eclipsecolortheme.mapper.GenericMapper"
+          name="AngularJS"
+          pluginId="org.eclipse.angularjs.ui"
+          xml="mappings/org.eclipse.angularjs.ui.xml">
+    </mapper>
    </extension>
    <extension
          point="com.github.eclipsecolortheme.theme">
